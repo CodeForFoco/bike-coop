@@ -28,3 +28,23 @@ If you are unfamiliar with git, check the resources below or ping us on Slack an
 
 - [Fork A Repo](https://help.github.com/articles/fork-a-repo/)
 - [Github Workflow](https://guides.github.com/introduction/flow/)
+
+### Local WordPress Installs
+
+#### Any OS
+
+- [Varying Vagrant Vagrants (VVV)](https://github.com/Varying-Vagrant-Vagrants/VVV) An open source [Vagrant](https://www.vagrantup.com) configuration centered on WordPress development.
+- [Variable VVV](https://github.com/bradp/vv) A VVV-based WP site wizard.
+- [AMPPS](http://www.ampps.com/)
+
+#### Mac
+
+- [MAMP](https://www.mamp.info/en/)
+
+#### Windows
+
+- [WAMP](http://www.wampserver.com/en/)
+
+#### Linux
+
+- [LAMP](https://www.turnkeylinux.org/lampstack)

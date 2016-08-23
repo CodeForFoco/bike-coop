@@ -11,15 +11,15 @@
 @import "global/settings"; // Foundation settings file.
 
 // Foundation mixins & browser resets
-@import '../components/foundation-sites/scss/foundation';
+@import "../components/foundation-sites/scss/foundation";
 
 // WP overrides
 @import "global/wp-admin"; // Fix issues with wp-admin bar positioning
 @import "global/wp-overrides"; // Override the default WordPress styling for some elements
 
 // Third-party libraries
-@import 'font-awesome';
-@import 'motion-ui';
+@import "font-awesome";
+@import "motion-ui";
 
 // Foundation global styles
 @include foundation-global-styles;
@@ -74,6 +74,9 @@
   My custom styles:
   Add your scss files below to structure your project styles
 */
+
+// Helpers
+@import "custom/helpers/variables/var--colors.scss";
 
 // Modules
 @import "modules/navigation";
