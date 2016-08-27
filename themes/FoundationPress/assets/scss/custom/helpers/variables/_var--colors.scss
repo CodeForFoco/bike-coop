@@ -2,35 +2,39 @@
 /*** PRIMARY ***/
 /***************/
 
-$c--primary--red--dark: map-get($colors,pantone-7627-C);
-$c--primary--red--med: lighten($c--primary--red--dark,20);
+$c--primary--red--dark: hsl(0, 60%, 41%);
+$c--primary--red--med: hsl(1, 42%, 58%);
 
-$c--primary--orange--dark: map-get($colors,pantone-7413-C);
-$c--primary--orange--med: lighten($c--primary--orange--dark,30);
-$c--primary--orange--light: lighten($c--primary--orange--dark,50);
-$c--primary--orange--lightest: lighten($c--primary--orange--dark,80);
+$c--primary--orange--dark: hsl(29, 71%, 53%);
+$c--primary--orange--med: hsl(30, 70%, 67%);
+$c--primary--orange--light: hsl(30, 71%, 77%);
+$c--primary--orange--lightest: hsl(30, 71%, 91%);
 
-$c--primary--brown--dark: map-get($colors,pantone-126-C);
-$c--primary--brown--med: lighten($c--primary--brown--dark,30);
-$c--primary--brown--light: lighten($c--primary--brown--dark,50);
-$c--primary--brown--lightest: lighten($c--primary--brown--dark,80);
+$c--primary--brown--dark: hsl(44, 80%, 34%);
+$c--primary--brown--med: hsl(44, 41%, 53%);
+$c--primary--brown--light: hsl(44, 41%, 67%);
+$c--primary--brown--lightest: hsl(43, 41%, 87%);
 
 /*****************/
 /*** SECONDARY ***/
 /*****************/
 
-$c--accent--blue--dark: map-get($colors,pantone-3145-C);
-$c--accent--blue--med: lighten($c--accent--blue--dark,30);
-$c--accent--blue--light: lighten($c--accent--blue--dark,50);
-$c--accent--blue--lightest: lighten($c--accent--blue--dark,80);
+$c--accent--blue--dark: hsl(189, 100%, 27%);
+$c--accent--blue--med: hsl(189, 39%, 49%);
+$c--accent--blue--light: hsl(190, 37%, 64%);
+$c--accent--blue--lightest: hsl(191, 38%, 85%);
 
-$c--accent--green--dark: map-get($colors,pantone-7748-C);
-$c--accent--green--med: lighten($c--accent--green--dark,30);
-$c--accent--green--light: lighten($c--accent--green--dark,50);
-$c--accent--green--lightest: lighten($c--accent--green--dark,80);
+$c--accent--green--dark: hsl(63, 42%, 35%);
+$c--accent--green--med: hsl(63, 23%, 55%);
+$c--accent--green--light: hsl(63, 23%, 68%);
+$c--accent--green--lightest: hsl(64, 24%, 87%);
 
 /***************/
 /*** MODULES ***/
 /***************/
 
-$c--footer-bg: $c--accent--blue--med;
+// Header
+$c--header-bg: $c--accent--blue--dark;
+
+// Footer
+$c--footer-bg: $c--accent--green--light;

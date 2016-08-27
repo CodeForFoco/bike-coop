@@ -49,11 +49,11 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #2199e8,
-  secondary: #777,
-  success: #3adb76,
-  warning: #ffae00,
-  alert: #ec5840,
+  primary: $c--accent--blue--dark,
+  secondary: $c--primary--brown--dark,
+  success: $c--accent--green--dark,
+  warning: $c--primary--orange--dark,
+  alert: $c--primary--red--dark
 );
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
@@ -558,7 +558,7 @@ $tooltip-radius: $global-radius;
 // -----------
 
 $topbar-padding: 0;
-$topbar-background: #121212;
+$topbar-background: $primary-color;
 $topbar-submenu-background: $topbar-background;
 $topbar-link-color: #fff;
 $topbar-input-width: 200px;

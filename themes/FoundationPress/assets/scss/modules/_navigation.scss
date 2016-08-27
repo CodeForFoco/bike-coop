@@ -27,9 +27,15 @@
 /* Tablet and desktop menu */
 .top-bar {
 
+  background-color: $c--header-bg;
+
+  ul {
+    background-color: $c--header-bg;
+  }
+
   .menu .home a {
     font-size: 1rem;
-    color: #B9B9B9;
+    color: $white;
   }
 
   .menu a {
