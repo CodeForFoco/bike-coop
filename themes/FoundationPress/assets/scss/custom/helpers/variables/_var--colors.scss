@@ -2,29 +2,39 @@
 /*** PRIMARY ***/
 /***************/
 
-$c--primary--red--dark: "hsl(5, 71%, 43%)";
-$c--primary--red--med: "hsl(10, 55%, 55%)";
+$c--primary--red--dark: hsl(0, 60%, 41%);
+$c--primary--red--med: hsl(1, 42%, 58%);
 
-$c--primary--orange--dark: "hsl(26, 72%, 52%)";
-$c--primary--orange--med: "hsl(26, 79%, 67%)";
-$c--primary--orange--light: "hsl(25, 85%, 76%)";
-$c--primary--orange--lightest: "hsl(24, 92%, 90%)";
+$c--primary--orange--dark: hsl(29, 71%, 53%);
+$c--primary--orange--med: hsl(30, 70%, 67%);
+$c--primary--orange--light: hsl(30, 71%, 77%);
+$c--primary--orange--lightest: hsl(30, 71%, 91%);
 
-$c--primary--brown--dark: "hsl(42, 78%, 32%)";
-$c--primary--brown--med: "hsl(39, 40%, 52%)";
-$c--primary--brown--light: "hsl(38, 43%, 65%)";
-$c--primary--brown--lightest: "hsl(37, 46%, 85%)";
+$c--primary--brown--dark: hsl(44, 80%, 34%);
+$c--primary--brown--med: hsl(44, 41%, 53%);
+$c--primary--brown--light: hsl(44, 41%, 67%);
+$c--primary--brown--lightest: hsl(43, 41%, 87%);
 
 /*****************/
 /*** SECONDARY ***/
 /*****************/
 
-$c--accent--blue--dark: "hsl(191, 100%, 26%)";
-$c--accent--blue--med: "hsl(186, 100%, 33%)";
-$c--accent--blue--light: "hsl(188, 41%, 57%)";
-$c--accent--blue--lightest: "hsl(188, 40%, 82%)";
+$c--accent--blue--dark: hsl(189, 100%, 27%);
+$c--accent--blue--med: hsl(189, 39%, 49%);
+$c--accent--blue--light: hsl(190, 37%, 64%);
+$c--accent--blue--lightest: hsl(191, 38%, 85%);
 
-$c--accent--green--dark: "hsl(63, 42%, 33%)";
-$c--accent--green--med: "hsl(60, 21%, 50%)";
-$c--accent--green--light: "hsl(59, 22%, 64%)";
-$c--accent--green--lightest: "hsl(57, 23%, 85%)";
+$c--accent--green--dark: hsl(63, 42%, 35%);
+$c--accent--green--med: hsl(63, 23%, 55%);
+$c--accent--green--light: hsl(63, 23%, 68%);
+$c--accent--green--lightest: hsl(64, 24%, 87%);
+
+/***************/
+/*** MODULES ***/
+/***************/
+
+// Header
+$c--header-bg: $c--accent--blue--dark;
+
+// Footer
+$c--footer-bg: $c--accent--green--light;
