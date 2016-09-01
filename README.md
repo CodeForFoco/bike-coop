@@ -2,11 +2,28 @@
 
 ## About
 
-TODO: Project Info
+TODO: Blah
 
 ## Getting Started
 
-TODO: Installation and theme setup info here
+1. Pull Repo
+1. Install vagrant
+1. Install vvv
+1. Install vv
+  - vv create
+  ```
+  Name of new site directory: foco-bike-coop
+ Directory /Users/jmajd/Workspace/clients/code_for_foco/bike-coop/vagrant-local/www/foco-bike-coop already exists. Existing VVV configuration files will be overwritten.
+ Domain to use (leave blank for foco-bike-coop.dev):
+ WordPress version to install (leave blank for latest version or trunk for trunk/nightly version):
+ Install as multisite? (y/N): n
+ Local SQL file to import for database (leave blank to skip):
+ Remove default themes and plugins? (y/N): n
+ Add sample content to site (y/N): n
+ Enable WP_DEBUG and WP_DEBUG_LOG (y/N): y
+ ```
+1. Sync files in vagrantfile with pulled repo
+1. restart vagrant
 
 ## Contributing
 
@@ -28,23 +45,3 @@ If you are unfamiliar with git, check the resources below or ping us on Slack an
 
 - [Fork A Repo](https://help.github.com/articles/fork-a-repo/)
 - [Github Workflow](https://guides.github.com/introduction/flow/)
-
-### Local WordPress Installs
-
-#### Any OS
-
-- [Varying Vagrant Vagrants (VVV)](https://github.com/Varying-Vagrant-Vagrants/VVV) An open source [Vagrant](https://www.vagrantup.com) configuration centered on WordPress development.
-- [Variable VVV](https://github.com/bradp/vv) A VVV-based WP site wizard.
-- [AMPPS](http://www.ampps.com/)
-
-#### Mac
-
-- [MAMP](https://www.mamp.info/en/)
-
-#### Windows
-
-- [WAMP](http://www.wampserver.com/en/)
-
-#### Linux
-
-- [LAMP](https://www.turnkeylinux.org/lampstack)
