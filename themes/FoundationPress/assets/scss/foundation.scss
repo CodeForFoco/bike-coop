@@ -7,6 +7,12 @@
   Licensed under MIT Open Source
 */
 
+// Custom: Vendor
+@import "vendor/Pantone-Sass/sass/pantone-coated";
+
+// Custom: Helpers
+@import "custom/helpers/variables/var--colors";
+
 //  Settings
 @import "global/settings"; // Foundation settings file.
 
@@ -74,9 +80,6 @@
   My custom styles:
   Add your scss files below to structure your project styles
 */
-
-// Helpers
-@import "custom/helpers/variables/var--colors.scss";
 
 // Modules
 @import "modules/navigation";
