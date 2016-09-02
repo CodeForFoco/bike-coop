@@ -6,24 +6,11 @@ TODO: Blah
 
 ## Getting Started
 
-1. Pull Repo
-1. Install vagrant
-1. Install vvv
-1. Install vv
-  - vv create
-  ```
-  Name of new site directory: foco-bike-coop
- Directory /Users/jmajd/Workspace/clients/code_for_foco/bike-coop/vagrant-local/www/foco-bike-coop already exists. Existing VVV configuration files will be overwritten.
- Domain to use (leave blank for foco-bike-coop.dev):
- WordPress version to install (leave blank for latest version or trunk for trunk/nightly version):
- Install as multisite? (y/N): n
- Local SQL file to import for database (leave blank to skip):
- Remove default themes and plugins? (y/N): n
- Add sample content to site (y/N): n
- Enable WP_DEBUG and WP_DEBUG_LOG (y/N): y
- ```
-1. Sync files in vagrantfile with pulled repo
-1. restart vagrant
+1. Sign up for [Cloud 9](https://c9.io/).
+1. Create project of type `Wordpress`.
+1. When it finishes setting up your container click `Run Project`.
+1. Open up the url printed out in the console.
+1. Set up Wordpress.
 
 ## Contributing
 
