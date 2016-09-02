@@ -2,15 +2,22 @@
 
 ## About
 
-TODO: Blah
+We are rebuilding the Fort Collins Bike Coop website currently. Our objective is to make it mobile friendly and add in a form to enable users to submit Volunteer Applications and Report Stolen Bikes.
 
-## Getting Started
+## Easy Getting Started
 
 1. Sign up for [Cloud 9](https://c9.io/).
 1. Create project of type `Wordpress`.
-1. When it finishes setting up your container click `Run Project`.
-1. Open up the url printed out in the console.
-1. Set up Wordpress.
+1. Open up a terminal.
+1. `cd /home/ubuntu/workspace/wp-content/plugins`.
+1. `git clone https://github.com/CodeForFoco/bike-coop-plugin`
+1. `cd /home/ubuntu/workspace/wp-content/themes/bike-coop-theme`
+1. `git clone https://github.com/CodeForFoco/bike-coop-theme`
+1. `npm install`
+1. Click `Run Application`
+1. Open the application and walk through the Wordpress setup.
+1. Enable the Bike Coop Theme.
+1. Enable the Bike Coop Plugin.
 
 ## Contributing
 
@@ -25,8 +32,6 @@ Contribution Workflow:
 1. Submit a pull request and your changes will be reviewed and merged.
 
 If you are unfamiliar with git, check the resources below or ping us on Slack and we'll help you out.
-
-## Resources
 
 ### Git
 
