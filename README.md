@@ -4,8 +4,9 @@
 
 We are rebuilding the Fort Collins Bike Coop website currently. Our objective is to make it mobile friendly and add in a form to enable users to submit Volunteer Applications and Report Stolen Bikes.
 
-This repository exists as a central place to share resources and instructions. The actual code is split into two separate repos:
+This repository exists as a central place to share resources and instructions. The actual code is split into several separate repos:
 
+- [The central repository for the project is located here.](https://github.com/CodeForFoco/bike-coop)
 - [The code for the project theme is located here.](https://github.com/CodeForFoco/bike-coop-plugin)
 - [The code for the project plugin is located here.](https://github.com/CodeForFoco/bike-coop-theme)
 
