@@ -46,7 +46,7 @@ TL;DR Contribution Workflow:
 
 1. [Fork](https://help.github.com/articles/fork-a-repo/) this repository and clone your fork.
 1. Make a patch branch.
-1. Make changes, commit and push.
+1. Make changes, commit, and push.
 1. Submit a pull request and your changes will be reviewed and merged.
 
 
