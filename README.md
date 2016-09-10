@@ -30,13 +30,15 @@ This repository exists as a central place to share resources and instructions. T
       - You'll need to login with newly created credentials to complete Wordpress setup
 1. Activate Bike Coop theme from `Appearance -> Themes` sidebar item. It might be called `FoundationPress` in the preview grid.
 1. Activate `Bike Coop Site Plugin` from `Plugins` sidebar item.
-1. View site. Congrats! You have the Wordpress site up. 
+1. View site. Congrats! You have the Wordpress site up.
 ![](images/HelloWorld-c9.png)
 
 
 ## Contributing
 
-We welcome new contributors. Not sure where to start? Check for any [open issues on our trello ][trello] or ping the team on [our slack channel](https://codeforfoco.slack.com/).  The [GitHub issue tracker][githubissue] is not currently used.
+We welcome new contributors. Not sure where to start? Check for any [open issues on our trello ][trello] or ping the team on [our Slack channel](https://codeforfoco.slack.com/).  The [GitHub issue tracker][githubissue] is not currently used.
+
+### Code (Theme, Plugin, Etc.)
 
 Ensure your code follows best practices and adheres to good style.
 
@@ -49,7 +51,14 @@ TL;DR Contribution Workflow:
 1. Make changes, commit, and push.
 1. Submit a pull request and your changes will be reviewed and merged.
 
+### WordPress Content
+
+If you would like to contribute/migrate non-code website content, you can do so via our [temporary development site][wpdevsite]. Just contact us through [our Slack channel] and we will set you up with a WordPress account so you can get started.
+
+For those unfamiliar with adding a WordPress page, please read [some basics][wppagebasics].
 
 [contributing]: https://github.com/CodeForFoco/org/blob/master/CONTRIBUTING.md
 [trello]: https://trello.com/b/Zrj0doO2/fort-collins-bike-co-op
 [githubissue]: https://github.com/CodeForFoco/bike-coop/issues
+[wpdevsite]: https://foco-bike-coop-abettermap.c9users.io/wp-login.php
+[wppagebasics]: https://codex.wordpress.org/Pages_Add_New_Screen
