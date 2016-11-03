@@ -13,9 +13,16 @@ This repository exists as a central place to share resources and instructions. T
 ## Easy Getting Started
 
 1. Sign up for [Cloud 9](https://c9.io/).
-1. Create new workspace, of type `Wordpress`
-   - name: `bike-coop-c9`
-   - description: `wordpress bike-coop workspace`
+	a. Create new workspace, of type `Wordpress`
+   		name: `bike-coop-c9`
+   		description: `wordpress bike-coop workspace`
+2. Use or setup a local web development environment
+	a. Pre-configured installers:
+		[XAMPP][XAMPP]
+		[MAMP][MAMP]
+	b. Custom setups:
+		[Windows][windowsServerSetup]
+		[OSX][osxServerSetup]
 1. Open up a terminal.
 1. `cd ~/workspace/wp-content/plugins/`
 1. `git clone https://github.com/CodeForFoco/bike-coop-plugin`
@@ -53,12 +60,16 @@ TL;DR Contribution Workflow:
 
 ### WordPress Content
 
-If you would like to contribute/migrate non-code website content, you can do so via our [temporary development site][wpdevsite]. Just contact us through [our Slack channel] and we will set you up with a WordPress account so you can get started.
+If you would like to contribute/migrate non-code website content, you can do so via our [temporary development site][wpdevsite]. Server info including credentials are available as a pinned document on our #development Slack channel (see Jordan for access to Slack). All content creation inside of WP should be done through individual WP accounts; please only use the 'cffc' master account to create your own individual account with whatever privileges you need.  This takes full advantage of the built-in WP content versioning and permissions and allows us to know who changed what outside of Git.
 
 For those unfamiliar with adding a WordPress page, please read [some basics][wppagebasics].
 
 [contributing]: https://github.com/CodeForFoco/org/blob/master/CONTRIBUTING.md
 [trello]: https://trello.com/b/Zrj0doO2/fort-collins-bike-co-op
 [githubissue]: https://github.com/CodeForFoco/bike-coop/issues
-[wpdevsite]: https://foco-bike-coop-abettermap.c9users.io/wp-login.php
+[wpdevsite]: http://198.58.102.79/wp-admin
 [wppagebasics]: https://codex.wordpress.org/Pages_Add_New_Screen
+[xampp]: https://www.apachefriends.org/download.html
+[mamp]: https://www.mamp.info/en/downloads/
+[windowsServerSetup]: https://eksith.wordpress.com/2010/11/07/nginx-php-mysql-windows/
+[osxServerSetup]: https://coolestguidesontheplanet.com/get-apache-mysql-php-and-phpmyadmin-working-on-osx-10-11-el-capitan/
