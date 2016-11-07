@@ -43,7 +43,7 @@ This repository exists as a central place to share resources and instructions. T
 
 ## Contributing
 
-We welcome new contributors. Not sure where to start? Check for any [open issues on our trello ][trello] or ping the team on [our Slack channel](https://codeforfoco.slack.com/).  The [GitHub issue tracker][githubissue] is not currently used.
+We welcome new contributors. Not sure where to start? Check for any [open issues][githubissue] or ping the team on [our slack channel](https://codeforfoco.slack.com/).
 
 ### Code (Theme, Plugin, Etc.)
 
